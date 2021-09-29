@@ -1,0 +1,121 @@
+.App {
+  min-height: 100vh;
+  text-align: -webkit-center;
+  background-color: #fcfd9b;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+input[type=checkbox]
+{
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.App-content {
+  display: flex;
+  background-color: #7c16dbcc;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 60vw;
+  border-radius: 20px;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+form input {
+  height: 26px;
+  border-radius: 5%;
+  display: flex;
+  vertical-align: auto;
+}
+
+form button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 0;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  color: #ffffff;
+  background-color: #4343b3;
+  height: 30px;
+  width: 120px;
+}
+
+h3 {
+  margin: 0;
+}
+
+.list {
+  display: flex;
+  margin: 8px;
+  padding: 8px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: #edf065;
+  text-align: center;
+  width: 45vw;
+}
+
+.icons {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  border: solid 1px transparent;
+  border-radius: 7px;
+
+}
+
+
+.btn-delete {
+  cursor: pointer;
+  display: inline-block;
+  justify-content: center;
+  border: solid 1px transparent;
+  border-radius: 7px;
+  height: 30px;
+  width: 30px;
+}
+
+.btn-edit {
+  cursor: pointer;
+  border-radius: 7px;
+  height: 30px;
+  width: 30px;
+}
+
+p{
+  font-size: 60px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
